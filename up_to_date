@@ -1,0 +1,35 @@
+git branch <branch_name>
+git branch -u <remote> <branch_name>
+git branch
+git branch -d <branch_name>
+git branch --delete <branch_name>
+
+git checkout <branch_name>
+git switch <branch_name>
+
+git checkout -b <branch_name>
+
+git status
+
+git add <file_name>
+git add .
+git add -A
+
+git commit -m "<commit_message>"
+
+git push <remote> <branch_name>
+
+git push --set-upstream <remote> <branch_name>
+git push -u origin <branch_name>
+
+git pull <remote>
+
+git log --oneline
+git revert <hash_code>
+
+git fetch
+git merge
+
+git branch -m <old_name> <new_name>
+
+
